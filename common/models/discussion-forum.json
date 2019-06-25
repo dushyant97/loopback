@@ -10,16 +10,33 @@
     "table": "discussion_forum"
   },
   "properties": {
+    "threadNo": {
+      "type": "Number",
+      "id": true,
+      "required": true,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "Thread_no",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "N"
+      },
+      "_selectable": false
+    },
     "title": {
       "type": "String",
       "required": false,
-      "length": 30,
+      "length": 100,
       "precision": null,
       "scale": null,
       "mysql": {
         "columnName": "Title",
         "dataType": "varchar",
-        "dataLength": 30,
+        "dataLength": 100,
         "dataPrecision": null,
         "dataScale": null,
         "nullable": "Y"
@@ -45,35 +62,18 @@
     "description": {
       "type": "String",
       "required": false,
-      "length": 100,
+      "length": 300,
       "precision": null,
       "scale": null,
       "mysql": {
         "columnName": "Description",
         "dataType": "varchar",
-        "dataLength": 100,
+        "dataLength": 300,
         "dataPrecision": null,
         "dataScale": null,
         "nullable": "Y"
       },
       "_selectable": true
-    },
-    "threadNo": {
-      "type": "Number",
-      "id": true,
-      "required": false,
-      "length": null,
-      "precision": 10,
-      "scale": 0,
-      "mysql": {
-        "columnName": "Thread_no",
-        "dataType": "int",
-        "dataLength": null,
-        "dataPrecision": 10,
-        "dataScale": 0,
-        "nullable": "N"
-      },
-      "_selectable": false
     }
   },
   "validations": [],

@@ -13,17 +13,7 @@
       "./mixins"
     ]
   },
-  "DiscussionForum": {
-    "dataSource": "sqlyog",
-    "public": true,
-    "$promise": {},
-    "$resolved": true
-  },
   "ThreadDetails": {
-    "dataSource": "sqlyog",
-    "public": true
-  },
-  "Employee": {
     "dataSource": "sqlyog",
     "public": true
   },
@@ -36,6 +26,14 @@
     "public": true
   },
   "Order": {
+    "dataSource": "sqlyog",
+    "public": true
+  },
+  "Employee": {
+    "dataSource": "sqlyog",
+    "public": true
+  },
+  "DiscussionForum": {
     "dataSource": "sqlyog",
     "public": true
   }

@@ -74,5 +74,37 @@
     }
   },
   "acls": [],
-  "methods": {}
+  "methods": {
+    "greet": {
+      "accepts": [
+        {
+          "arg": "msg",
+          "type": "number",
+          "required": false,
+          "description": "enter the message"
+        }
+      ],
+      "returns": [
+        {
+          "arg": "result",
+          "type": "string",
+          "root": true,
+          "description": "prints message"
+        },
+        {
+          "arg": "msg",
+          "type": "number",
+          "root": true,
+          "description": "input paramter"
+        }
+      ],
+      "description": "prints message",
+      "http": [
+        {
+          "path": "/pop",
+          "verb": "post"
+        }
+      ]
+    }
+  }
 }

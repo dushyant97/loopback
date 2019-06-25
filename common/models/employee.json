@@ -10,7 +10,7 @@
     "table": "employee"
   },
   "properties": {
-    "empNo": {
+    "empId": {
       "type": "Number",
       "id": true,
       "required": true,
@@ -18,7 +18,7 @@
       "precision": 10,
       "scale": 0,
       "mysql": {
-        "columnName": "Emp_No",
+        "columnName": "emp_id",
         "dataType": "int",
         "dataLength": null,
         "dataPrecision": 10,
@@ -27,14 +27,30 @@
       },
       "_selectable": false
     },
-    "name": {
+    "firstName": {
       "type": "String",
       "required": false,
       "length": 30,
       "precision": null,
       "scale": null,
       "mysql": {
-        "columnName": "Name",
+        "columnName": "first_name",
+        "dataType": "varchar",
+        "dataLength": 30,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      },
+      "_selectable": true
+    },
+    "lastName": {
+      "type": "String",
+      "required": false,
+      "length": 30,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "last_name",
         "dataType": "varchar",
         "dataLength": 30,
         "dataPrecision": null,
@@ -50,11 +66,27 @@
       "precision": 10,
       "scale": 0,
       "mysql": {
-        "columnName": "Age",
+        "columnName": "age",
         "dataType": "int",
         "dataLength": null,
         "dataPrecision": 10,
         "dataScale": 0,
+        "nullable": "Y"
+      },
+      "_selectable": true
+    },
+    "phone": {
+      "type": "String",
+      "required": false,
+      "length": 30,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "phone",
+        "dataType": "varchar",
+        "dataLength": 30,
+        "dataPrecision": null,
+        "dataScale": null,
         "nullable": "Y"
       },
       "_selectable": true
@@ -66,25 +98,9 @@
       "precision": null,
       "scale": null,
       "mysql": {
-        "columnName": "Designation",
+        "columnName": "designation",
         "dataType": "varchar",
         "dataLength": 30,
-        "dataPrecision": null,
-        "dataScale": null,
-        "nullable": "Y"
-      },
-      "_selectable": true
-    },
-    "dob": {
-      "type": "Date",
-      "required": false,
-      "length": null,
-      "precision": null,
-      "scale": null,
-      "mysql": {
-        "columnName": "DOB",
-        "dataType": "date",
-        "dataLength": null,
         "dataPrecision": null,
         "dataScale": null,
         "nullable": "Y"
