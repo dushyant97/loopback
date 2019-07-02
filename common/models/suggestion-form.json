@@ -13,7 +13,7 @@
     "suggestionId": {
       "type": "Number",
       "id": true,
-      "required": true,
+      "required": false,
       "length": null,
       "precision": 10,
       "scale": 0,
@@ -27,18 +27,34 @@
       },
       "_selectable": false
     },
-    "empNo": {
-      "type": "Number",
+    "username": {
+      "type": "String",
       "required": false,
-      "length": null,
-      "precision": 10,
+      "length": 30,
+      "precision": null,
       "scale": 0,
       "mysql": {
-        "columnName": "Emp_No",
-        "dataType": "int",
-        "dataLength": null,
-        "dataPrecision": 10,
-        "dataScale": 0,
+        "columnName": "username",
+        "dataType": "varchar",
+        "dataLength": 30,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      },
+      "_selectable": true
+    },
+    "title": {
+      "type": "String",
+      "required": false,
+      "length": 30,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "title",
+        "dataType": "varchar",
+        "dataLength": 30,
+        "dataPrecision": null,
+        "dataScale": null,
         "nullable": "Y"
       },
       "_selectable": true
