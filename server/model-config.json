@@ -36,5 +36,9 @@
   "DiscussionForum": {
     "dataSource": "sqlyog",
     "public": true
+  },
+  "Contact": {
+    "dataSource": "sqlyog",
+    "public": true
   }
 }
