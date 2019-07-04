@@ -2,7 +2,7 @@
 
 Queries for LoopBack:<br/>
 
-			LOOPBACK QUERIES <br/>
+			LOOPBACK QUERIES 
 
 //write queries in GET  <br/>
 
