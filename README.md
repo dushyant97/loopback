@@ -1,8 +1,12 @@
 # loopback
 
-Queries for LoopBack:<br/>
+Loopback versioon - 3.x <br>
+Strongloop: https://www.npmjs.com/package/strongloop <br><br>
 
-			LOOPBACK QUERIES 
+Reference for Strongloop: https://github.com/dushyant97/strongloop <br>
+Reference for Loopback V3: https://github.com/dushyant97/loopback-1 <br>
+
+Queries for LoopBack:<br/>
 
 //write queries in GET  <br/>
 
