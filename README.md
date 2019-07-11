@@ -1,6 +1,6 @@
 # loopback
 
-Loopback versioon - 3.x <br>
+Loopback versioon - 3.x link: https://www.npmjs.com/package/loopback<br>
 Strongloop: https://www.npmjs.com/package/strongloop <br><br>
 
 Reference for Strongloop: https://github.com/dushyant97/strongloop <br>
